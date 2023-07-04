@@ -20,7 +20,7 @@ namespace Not_Kayit_Sistemi
 
         public string numara;
 
-        SqlConnection connection = new SqlConnection(@"Data Source=LAPTOP-ONATSOFT\ONATSOFT;Initial Catalog=NotKayitDB;Integrated Security=True");
+        SqlConnection connection = new SqlConnection(@"");
 
         private void OgrenciDetayFrm_Load(object sender, EventArgs e)
         {
