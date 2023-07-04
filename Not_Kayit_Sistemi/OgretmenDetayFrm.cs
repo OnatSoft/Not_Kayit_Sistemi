@@ -18,7 +18,7 @@ namespace Not_Kayit_Sistemi
             InitializeComponent();
         }
 
-        SqlConnection connection = new SqlConnection(@"Data Source=LAPTOP-ONATSOFT\ONATSOFT;Initial Catalog=NotKayitDB;Integrated Security=True");
+        SqlConnection connection = new SqlConnection(@"");
 
         private void OgretmenDetayFrm_Load(object sender, EventArgs e)
         {
